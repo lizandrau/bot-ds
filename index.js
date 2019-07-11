@@ -48,5 +48,5 @@ bot.on('message', async message => {
 bot.login(config.token);
 bot.on('ready', () => {
     console.log(`${bot.user.username} online`);
-    bot.user.setPresence ({status: 'dmd', game:{name: 'coder', type: 0}});
+    bot.user.setPresence ({status: 'dmd', game:{name: 'coderrrrr', type: 0}});
 });
